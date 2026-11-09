@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.creativecrateblacklist.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "CreativeCrateBlacklistMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

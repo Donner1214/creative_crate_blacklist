@@ -1,0 +1,26 @@
+
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+
+[[mods]]
+
+modId="${mod_id}"
+versionRange="[21.1,22)"
+
+displayName="${mod_name}"
+
+authors="donner"
+description='''
+Block certain items to be inserted into the creative crate from create.
+Configure the items in the configs.
+'''
+[[mixins]]
+config="creativecrateblacklist.mixins.json"
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="[${neo_version},)"
+    ordering="NONE"
+    side="BOTH"
+
